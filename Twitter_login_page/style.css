@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+.world {
+  display: flex;
+  height: 110vh;
+}
+
+.left {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left img {
+  height: 70%;
+  width: 55%;
+}
+
+.right {
+  background-color: rgb(0, 0, 0);
+  width: 45%;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 70px;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+button img {
+  padding: 0px 10px;
+  height: 20px;
+}
+
+.log-in {
+  font-family: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+  margin-top: 10px;
+  height: 40px;
+  width: 300px;
+  border-radius: 30px;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 500;
+  border: none;
+}
+
+.between-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  margin: 6px 0px;
+}
+
+.line {
+  width: 250px;
+  height: 1px;
+  background-color: rgb(47, 51, 54);
+  margin: 0px 5px;
+}
+.between-btn p {
+  font-size: 15px;
+  color: rgb(207, 214, 221);
+}
+
+.create-ac {
+  font-family: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+  margin-top: 8px;
+  height: 40px;
+  width: 300px;
+  border-radius: 30px;
+  background-color: rgb(29, 155, 240);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+  color: white;
+  transform: all 0.3s ease-out;
+}
+.create-ac:hover {
+  background-color: rgb(26, 140, 216);
+}
+
+.else {
+  width: 305px;
+  font-size: 10px;
+  color: rgb(113, 118, 123);
+  margin-top: 5px;
+}
+.else a {
+  color: rgb(29, 155, 240);
+  text-decoration: none;
+}
+
+.acc {
+  font-size: 1rem;
+  margin-top: 50px;
+}
+
+.sign-in {
+  font-family: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+  margin-top: 20px;
+  height: 40px;
+  width: 300px;
+  border-radius: 30px;
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+  color: rgb(29, 155, 240);
+  border: 1px solid rgb(83, 100, 113);
+  transform: all 0.3s ease-out;
+}
+.sign-in:hover {
+  background-color: rgba(89, 110, 127, 0.147);
+}
+
+.last {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 5px;
+  font-size: 13px;
+  padding: 30px 25px 8px 8px;
+  margin-top: 15px;
+  gap: 5px;
+  padding: 1rem 2rem 0.2rem 0.8rem;
+  font-size: 0.875rem;
+  margin-top: 0.9375rem;
+}
+.last a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: rgb(113, 118, 123);
+}
+
+.last div {
+  color: rgb(113, 118, 123);
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+
